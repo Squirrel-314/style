@@ -1,6 +1,5 @@
 * {
    text-align: center;
-   overflow-x: hidden;
    align-items: center;
 }
 
@@ -51,3 +50,33 @@ p {
     width: 350px;
     margin: 25px 18%;
  }
+
+ a {
+    color: #6e6e6e;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+ }
+
+ a:after {
+   content: "";
+   display: block;
+   height: 2.5px;
+   left: 50%;
+   position: absolute;
+   background: #6e6e6e;
+   transition: all .5s;
+   width: 0;
+ }
+
+ a:hover:after {
+   width: 100%;
+   left: 0;
+   overflow: hidden;
+ }
+
+.back {
+   height: 400px;
+   padding-top: 150px;
+}
