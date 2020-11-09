@@ -31,6 +31,15 @@ body {
    border-radius: 2px;
 }
 
+#img2 {
+   position: relative;
+   right: -1000px;
+   transition: .8s;
+   width: 350px;
+   height: 500px;
+   border-radius: 2px;
+}
+
 .product {
    margin: 50px;
    padding: 25px;
@@ -39,13 +48,17 @@ body {
 .product-display {
    display: grid;
    grid-template-columns: auto auto;
-   border: solid 5px; /* Ttepmorary */
+   padding: 25px 0px;
+   margin: 25px 0px;
 }
 
 .product-display:hover #img1 {
    left: 20px;/* Move right into screen */
 }
 
+.product-display:hover #img2 {
+   right: 20px;/* Move right into screen */
+}
 
 .product-display:hover .product-text {
    opacity: 1;
