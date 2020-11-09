@@ -28,6 +28,7 @@ body {
    left: -1000px;
    transition: .8s;
    width: 500px;
+   border-radius: 2px;
 }
 
 .product {
@@ -38,6 +39,7 @@ body {
 .product-display {
    display: grid;
    grid-template-columns: auto auto;
+   border: solid 5px; /* Ttepmorary */
 }
 
 .product-display:hover #img1 {
