@@ -33,8 +33,6 @@ p {
    color: #636363;
    text-transform: uppercase;
    font-family: 'Poppins', sans-serif;
-   position: relative;
-   top: 0px;
    transition: .5s;
 }
 
