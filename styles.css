@@ -23,17 +23,23 @@ body {
    overflow-x: hidden;
 }
 
+#img1 {
+   position: relative;
+   left: -1000px;
+   transition: .8s;
+   width: 500px;
+}
+
 .product {
    margin: 50px;
    padding: 50px;
    border: solid 1px; /* Temporary */
-   transition: 5s;
 }
 
-.product:hover .product-image {
-   /* Move right into screen */
+.product:hover #img1 {
+   left: 20px;/* Move right into screen */
 }
 
 .product:hover .product-text {
-   /* Move right into screen */
+   /* #FFFFDF */
 }
