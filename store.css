@@ -1,0 +1,28 @@
+* {
+   text-align: center;
+   overflow-x: hidden;
+}
+
+h1 {
+   color: #787878;
+   font-family: 'Quicksand', sans-serif;
+   background-color: rgb(245, 216, 187, 0.8);
+   padding: 100px 180px;
+   position: relative;
+   top: -25px;
+}
+
+.product-display {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+.product-image {
+   height: 350px;
+   filter: invert();
+   transition: 1.5s;
+}
+
+.product-image:hover {
+   filter: none;
+}

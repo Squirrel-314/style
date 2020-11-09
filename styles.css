@@ -27,6 +27,7 @@ body {
    position: relative;
    left: -1000px;
    transition: .8s;
+   transition-delay: 0s, 50s;
    width: 500px;
    border-radius: 2px;
 }
@@ -74,4 +75,33 @@ body {
    position: relative;
    right: -75px;
    top: 75px;
+}
+
+#store {
+   text-align: center;
+   padding: 250px;
+}
+
+a {
+   color: #6e6e6e;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   font-size: 50px;
+   position: relative;
+}
+
+a:after {
+  content: "";
+  display: block;
+  height: 2.5px;
+  left: 50%;
+  position: absolute;
+  background: #6e6e6e;
+  transition: all .5s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
 }
