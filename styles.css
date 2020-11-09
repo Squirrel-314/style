@@ -50,8 +50,13 @@ body {
 }
 
 .product-text {
+   text-align: center;
    opacity: 0;
    transition: 1.2s;
    color: #6a6a6a;
    font-size: 50px;
+   width: 75%;
+   position: relative;
+   right: -75px;
+   top: 75px;
 }
