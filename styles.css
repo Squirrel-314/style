@@ -32,14 +32,24 @@ body {
 
 .product {
    margin: 50px;
-   padding: 50px;
-   border: solid 1px; /* Temporary */
+   padding: 25px;
 }
 
-.product:hover #img1 {
+.product-display {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+.product-display:hover #img1 {
    left: 20px;/* Move right into screen */
 }
 
-.product:hover .product-text {
-   /* #FFFFDF */
+
+.product-display:hover .product-text {
+   opacity: 1;
+}
+
+.product-text {
+   opacity: 0;
+   transition: 1.2s;
 }
