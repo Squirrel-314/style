@@ -1,7 +1,7 @@
 .landing {
    background-color: rgb(245, 216, 187);
    opacity: .8;
-   height: 650px;
+   height: 100vh;
    padding: 50px;
    margin: -10px;
 }
