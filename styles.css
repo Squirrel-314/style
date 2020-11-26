@@ -28,7 +28,7 @@ body {
    position: relative;
    left: -1000px;
    transition: .8s;
-   transition-delay: 0s, 50s;
+   transition-delay: 0s;
    width: 500px;
    border-radius: 2px;
 }
@@ -63,7 +63,16 @@ body {
 }
 
 .product-display:hover .product-text {
+   transform: scale(1);
    opacity: 1;
+}
+
+.product-text:before {
+   transition-delay: 10s;
+}
+
+.product-text:hover:before {
+   transition-delay: 10s;
 }
 
 .product-text {
@@ -76,6 +85,7 @@ body {
    position: relative;
    right: -75px;
    top: 75px;
+   transform: scale(0.5);
 }
 
 #store {

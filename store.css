@@ -3,11 +3,59 @@
    align-items: center;
 }
 
-h1 {
+.sale {
+   height: 180px;
+   width: 180px;
+   background-color: #0c85ed;
+   border-radius: 10%;
+   margin: auto 50px;
+   animation: swing 3s infinite;
+   transform-origin: 50% 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+}
+
+.tag {
+   height: 25px;
+   width: 25px;
+   background-color: #000;
+   border-radius: 100%;
+   position: absolute;
+   top: 20px;
+}
+
+h2 {
+   font-size: 40px;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 5px;
+   font-weight: 800;
+}
+
+@keyframes swing {
+   0% {
+      transform: rotate(45deg);
+      box-shadow: 12px 12px #000;
+   }
+   50% {
+      transform: rotate(-45deg);
+      box-shadow: -12px 12px #000;
+   }
+   100% {
+      transform: rotate(45deg);
+      box-shadow: 12px 12px #000;
+   }
+}
+
+.header {
    color: #787878;
    font-family: 'Quicksand', sans-serif;
    background-color: rgb(245, 216, 187, 0.8);
-   padding: 100px 180px;
+   padding: 100px 200px;
    position: relative;
    top: -25px;
 }
