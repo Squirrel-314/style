@@ -1,0 +1,54 @@
+body {
+  background-image: url("C:/Users/theho/OneDrive/Desktop/Coding Projects/Mat o' mayo/Images/download.jpg");
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+  background-color: #000;
+  margin: -22px -8px 20px -8px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 250px 10px 250px;
+  position: fixed;
+}
+
+a {
+ color: #fff;
+ text-decoration: none;
+}
+
+footer {
+ background-color: #4d4d4d;
+ color: #fff;
+ font-size: 15px;
+ padding: 20px;
+}
+
+.box {
+  background-color: #fff;
+  margin: 12px;
+  padding: 2px 8px;
+  border: outset silver 5px;
+}
+
+pre, .re{
+  border: inset gold 2px;
+  text-align: left;
+  padding: 2px;
+  margin: 0px 250px;
+  background-color: #000;
+  color: #fff;
+}
+
+#red {
+  color: red;
+}
+
+iframe {
+  height: 200px;
+}
